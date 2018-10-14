@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="dadada.jabber:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/dadada_jabber_jar</output-path>
+    <root id="archive" name="dadada.jabber.jar">
+      <element id="module-output" name="dadada.jabber" />
+    </root>
+  </artifact>
+</component>
