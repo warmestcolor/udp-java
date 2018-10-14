@@ -9,6 +9,7 @@ public class MulticastReceiver extends Thread {
     public void run() {
         try {
             socket = new MulticastSocket(Config.IP);
+            socket.setTimeToLive(250);
             InetAddress group = InetAddress.getByName(Config.ADDRESS);
             socket.joinGroup(group);
             // print
